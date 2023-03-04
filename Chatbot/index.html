@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <div class="p-2">
+    <div class="p-2 mainContainer">
         <h1 class="text-center chatbot-heading">Meet our Chatbot</h1>
         <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/chatbot-bot-img.png" />
         <div id="chatContainer" class="chat-container"></div>
-        <div class="d-flex flex-row justify-content-end">
+        <div class="d-flex flex-row justify-content-end mb-3">
             <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/chatbot-boy-img.png" />
         </div>
         <div class="d-flex flex-row justify-content-center fixed-bottom">
             <input id="userInput" class="user-input" />
-            <button class="send-msg-btn" id="sendMsgBtn">
+            <button type="button" class="send-msg-btn" id="sendMsgBtn" onclick="sendMsgBtn()">
                 <i class="fas fa-paper-plane"></i>
             </button>
         </div>
